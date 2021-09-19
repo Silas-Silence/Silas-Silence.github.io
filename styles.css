@@ -1,0 +1,37 @@
+
+.caution{
+position: fixed;
+top: 5;
+right: 5;
+font-size: 12px;
+}
+.nav{
+position: fixed;
+top: 5;
+left: 5;
+font-size: 25px;
+background: #A3BDD4;
+
+}
+
+
+
+#navContainer{
+position: fixed;
+width: 100%;
+top: 0px; left: 0px;
+
+font-size: 1em;
+
+
+background: brown;
+}
+#navList li{
+    display: inline;
+    list-style-type : none;
+    margin: 12px;
+
+    color: whitesmoke;
+    
+}
+
