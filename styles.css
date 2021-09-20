@@ -1,37 +1,42 @@
 
 .caution{
 position: fixed;
-top: 5;
-right: 5;
-font-size: 12px;
-}
-.nav{
-position: fixed;
-top: 5;
-left: 5;
-font-size: 25px;
-background: #A3BDD4;
+top: 0px; left: 40%; right: 40%;
 
+background: red;
+font-size: 1em;
+text-align: center;
 }
 
 
+/* Navigation */
 
 #navContainer{
 position: fixed;
-width: 100%;
+width: 100%; 
+height: 4%; min-height: 50px;
 top: 0px; left: 0px;
 
 font-size: 1em;
 
-
 background: brown;
+
+box-shadow: 1px 1px grey;
 }
+
 #navList li{
     display: inline;
     list-style-type : none;
     margin: 12px;
-
-    color: whitesmoke;
     
 }
+
+
+/* .nav{
+  position: fixed;
+  top: 5;
+  left: 5;
+  font-size: 25px;
+  background: #A3BDD4;
+  } */
 
